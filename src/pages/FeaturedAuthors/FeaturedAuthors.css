@@ -1,0 +1,27 @@
+/* AuthoredFeaturePage.css */
+
+.authored-feature-page {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .authors-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .author-card {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .author-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  

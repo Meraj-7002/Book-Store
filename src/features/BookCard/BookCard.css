@@ -1,0 +1,38 @@
+.home-page {
+  padding: 20px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.heading {
+  flex: 1;
+  font-weight: bold;
+}
+
+.text {
+  flex: 1;
+  text-align: right;
+}
+
+.cards-container {
+  display: flex;
+  flex: 8;
+  justify-content: space-between;
+}
+
+.card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
